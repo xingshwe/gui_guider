@@ -1,0 +1,13 @@
+/************************************************************/
+需要到这个这个目录下  文件名称：gui_guider
+//进入到simulator目录下执行以下操作
+/gui_guider/smart_watch/platform/simulator/
+
+删除build文件夹
+rm -rf build
+//重新使用cmake生成build文件
+mkdir build && cd build
+cmake .. -GNinja
+//生成文件
+ninja
+/************************************************************/
